@@ -1,0 +1,14 @@
+print(" ")
+print("Ramirez Torres Angel Manuel De 3°W")
+print("-INSTRUCCIONES-")
+print("Almacenar las materias de 1 curso (ejemplo Pensamiento matemático, español, Inglés, química, civismo y francés) en una lista luego despliegue en pantalla")
+print(" ")
+
+# Almacenar las materias en una lista
+print("Materiasque hay")
+materias = ["Pensamiento matemático", "Español", "Inglés", "Química", "Civismo", "Francés"]
+
+# Desplegar las materias en pantalla
+print("Materias del curso:")
+for materia in materias:
+    print(materia)
